@@ -16,6 +16,7 @@ connection.commit()
 
 player1score = 0
 player2score = 0
+print("Hi, Welcome to the dice game :)")
 n = int(input("Please enter the number of rounds you want to play in the dice roll game: "))
 for i in range(n): # n - number of rounds
     dice1 = random.randint(1, 6)
